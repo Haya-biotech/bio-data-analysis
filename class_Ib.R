@@ -1,0 +1,16 @@
+dir.create("raw_data")
+dir.create("clean_data")
+dir.create("scripts")
+dir.create("results")
+dir.create("plots")
+data<-read.csv(file.choose())
+View(data)
+str(data)
+#convert gender and diagnosis columns to factor
+#create a binary variable for smoking status
+data$gender_fac<- as.factor(data$gender)
+class(data$gender_fac)
+data$diagnosis_fac<- as.factor(data$diagnosis)
+class(data$diagnosis_fac)
+data$smoker_num<- ifelse(data$smoker=="Yes", 1, 0)
+write.csv(data, file = "clean_data/patient_info_clean.csv")
