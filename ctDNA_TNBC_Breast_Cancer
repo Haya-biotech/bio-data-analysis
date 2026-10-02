@@ -1,0 +1,21 @@
+# 🧬 ctDNA Pipeline for Triple-Negative Breast Cancer Detection
+
+**🏆 1st Place — Bioinformatics Challenge 2026 (biotechnology.sy)**
+
+## 📌 Overview
+End-to-end bioinformatics pipeline for liquid biopsy (ctDNA) analysis to extract SNVs/CNVs and identify a diagnostic gene panel for early breast cancer detection.
+
+## 🛠️ Tools
+- **Languages:** Python
+- **Approach:** AI-assisted coding (Qwen) + rigorous biological validation
+- **Reproducibility:** GitHub version-controlled workflows
+
+## 📂 Structure
+- `scripts/` — Step-by-step analysis code
+- `results/` — Gene panels and variant summaries
+
+## 🔬 Goal
+Prioritize clinically relevant mutations for early diagnostic applications.
+
+---
+Haya Nahhas |biotechnology engneering & Independent Bioinformatics Researcher]
